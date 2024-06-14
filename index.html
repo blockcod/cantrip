@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel= "stylesheet" href="mystyle.css">
+<script src="slideshow.js"></script>
+<title>Josue's website </title>
+<link rel="icon" type="image/x-icon" href="balloon.ico">
+</head>
+<body>
+	<div class = "nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="gear.html">Gear</a></li> 
+			<li><a href="video.html">Video</a></li>
+		</ul>
+	</div>
+	<div class="row">
+		<div class="column">
+			<p style= "text-align: center;font-size: 50px;">My name's Josue and this page will be used to showcase my photography. <br>I shoot a mix of digital images as well as analog film.</p>
+		</div>
+		<div class="column">
+			<img src="images/cat1.jpg" style="width:80%">
+		</div>
+	</div>
+	<div class="row">
+		<div class="slideshow">
+			<div class="mySlides">
+				<div class="numbertext">1 / 4</div>
+				<img src="images/atlixco.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">2 / 4</div>
+				<img src="images/teddy.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">3 / 4</div>
+				<img src="images/cat2.jpg" style="width:100%">
+			</div>
+			<div class="mySlides">
+				<div class="numbertext">4 / 4</div>
+				<img src="images/cat3.jpg" style="width:100%">
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<div class="caption-container">
+				<p id="caption"></p>
+			</div>
+			<div class ="rowSlides">
+				<div class= "columnSlides">
+					<img class="demo cursor" src="images/atlixco.jpg" style="width:100%" onclick="currentSlide(1)" alt="Atlixco, Mexico">
+				</div>
+				<div class= "columnSlides">
+					<img class="demo cursor" src="images/teddy.jpg" style="width:100%" onclick="currentSlide(2)" alt="My chihuahua Teddy">
+				</div>
+				<div class= "columnSlides">
+					<img class="demo cursor" src="images/cat2.jpg" style="width:100%" onclick="currentSlide(3)" alt="Cat by my window">
+				</div>
+				<div class= "columnSlides">
+					<img class="demo cursor" src="images/cat3.jpg" style="width:100%" onclick="currentSlide(4)" alt="Cat in the shade">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class= "row">
+		<div class= "column_thirds">
+			<div class="column_thirds_inner">
+			<img src = "images/cathedral.jpg" style= "width:100%" class="thirds">
+		</div>
+		</div>
+		<div class= "column_thirds">
+			<div class="column_thirds_inner">
+			<img src = "images/chelsea.jpg" style= "width:100%" class="thirds">
+		</div>
+		</div>
+		<div class= "column_thirds">
+			<div class="column_thirds_inner">
+			<img src = "images/izucar.jpg" style= "width:100%" class="thirds">
+		</div>
+	</div>
+	</div>
+	
+</body>
+
+</html>
